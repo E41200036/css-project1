@@ -1,0 +1,89 @@
+body {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #D28814;
+    border: none;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #b87b18;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #bcd0e5;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid #9facbb;
+    transition: .2s;
+}
+
+.herobwa h1 {
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.herobwa p {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.herobwa a {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+
+nav.navbar {
+    font-family: 'Poppins';
+}
+
+.navbar-nav .nav-link {
+    color: #333 !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    /* padding: 0 5px 0 5px; */
+    color: #333 !important;
+}
+
+.navbar-brand img {
+    margin-right: 4px;
+}
+
+/* custom */
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 425px) {
+
+    .btn-primary,
+    .btn-secondary {
+        display: block;
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .btn-primary {
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 571px) {
+    .img-hero {
+        margin-top: 40px !important;
+    }
+}
